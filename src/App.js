@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import ProfileCard from './Profile.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>The Silly Clowns I Drew During A Very Specific Class Collection.</h1>
+
+      <div className="box">
+        <ProfileCard Image="/Clowns/World_sfastestclown.png" Name="World's Fastest Clown" Description="The fastest of them all. Cannot be outrun"/>
+        <ProfileCard Image="/Clowns/World_sgoofiestclown.png" Name="World's Goodifest Clown" Description="It looks sad but it is feeling goofy."/>
+        <ProfileCard Image="/Clowns/World_sMostPeacefulclown.png" Name="World's Most Peaceful Clown" Description="That is a water gun, your honor."/>
+        <ProfileCard Image="/Clowns/World_smostviolentclown.png" Name="World's Most Violent Clown" Description="That thing can kill please be safe."/>
+        <ProfileCard Image="/Clowns/World_snicestclown.png" Name="World's Nicest Clown" Description="It has the biggest heart among all."/>
+        <ProfileCard Image="/Clowns/worldsmostdepressingclown.png" Name="World's Nicest Clown" Description="That smile is to hide the pain from others."/>
+      </div>
+
+      <h12>Made this around 2nd semester - 2nd Year on a school computer that somehow doesn't delete files after shutting off so it just kept on growing...</h12>
+
     </div>
   );
 }
