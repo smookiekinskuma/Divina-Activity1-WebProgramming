@@ -14,6 +14,8 @@ function App() {
         <ProfileCard Image="/Clowns/World_smostviolentclown.png" Name="World's Most Violent Clown" Description="That thing can kill please be safe."/>
         <ProfileCard Image="/Clowns/World_snicestclown.png" Name="World's Nicest Clown" Description="It has the biggest heart among all."/>
         <ProfileCard Image="/Clowns/worldsmostdepressingclown.png" Name="World's Nicest Clown" Description="That smile is to hide the pain from others."/>
+        <ProfileCard Image="/Clowns/theclownofalltimes.png" Name="The Clown of All Time" Description="It got promoted to clown of all time."/>
+        <ProfileCard Image="/Clowns/laughingjackidk.png" Name="The Real Laughing Jack" Description="Based on a real creepypasta."/>
       </div>
 
       <h12>Made this around 2nd semester - 2nd Year on a school computer that somehow doesn't delete files after shutting off so it just kept on growing...</h12>
